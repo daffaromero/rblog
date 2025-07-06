@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Post.create([
+  { title: "First Post", body: "This is the content of the first post." },
+  { title: "Second Post", body: "This is the content of the second post." },
+  { title: "Third Post", body: "This is the content of the third post." }
+])
